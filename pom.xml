@@ -1,0 +1,13 @@
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>2.4</version>
+    <configuration>
+      <webResources>
+        <resource>
+          <!-- this is relative to the pom.xml directory -->
+          <directory>C:\Users\boss\Shiva\Java\jenkins\workspace\Deploy2\pom.xml</directory>
+        </resource>
+      </webResources>
+    </configuration>
+  </plugin>
